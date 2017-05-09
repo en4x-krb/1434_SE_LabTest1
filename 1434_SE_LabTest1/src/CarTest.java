@@ -8,13 +8,13 @@ public class CarTest {
 	Car carEngine;
 	@Before
 	public void setUp() throws Exception {
-		carEngine = new Car(120);
+		carEngine = new Car(440);
 	}
 
 	@Test
 	public void testGetEngineCapacity() {
 		//fail("Not yet implemented");
-		assertEquals(120,carEngine.getEngineCapacity());
+		assertEquals(440,carEngine.getEngineCapacity());
 	}
 
 }
